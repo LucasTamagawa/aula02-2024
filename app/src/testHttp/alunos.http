@@ -1,0 +1,12 @@
+@baseUrl = https://8080-lucastamagaw-aula022024-nw4s5i0s73l.ws-us115.gitpod.io
+
+###
+GET {{baseUrl}}/alunos
+
+###
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+    "nome": "Lucas Tamura"
+}
